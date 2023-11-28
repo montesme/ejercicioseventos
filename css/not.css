@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .input-section input,
+  .input-section textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .input-section button {
+    margin-right: 10px;
+  }
+  
+  .notes-container {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .note h3 {
+    margin-top: 0;
+  }
+  
+  .note input[type="checkbox"] {
+    margin-right: 5px;
+  }

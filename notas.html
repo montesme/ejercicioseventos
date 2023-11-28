@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>App de Notas</title>
+    <link rel="stylesheet" href="./css/not.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Aplicación de Notas</h1>
+      
+        <div class="input-section">
+          <input type="text" id="input-titulo" placeholder="Título">
+          <textarea id="input-texto" placeholder="Texto"></textarea>
+          <button id="btn-guardar">Guardar</button>
+          <button id="btn-limpiar">Limpiar</button>
+          <input type="checkbox" id="filtro-realizadas">Mostrar realizadas
+          <input type="text" id="filtro-texto" placeholder="Filtrar por texto">
+        </div>
+      
+        <div id="contenedor-notas" class="notes-container"></div>
+      </div>
+      <script src="./js/nots.js"></script>
+</body>
+
+
+</html>
